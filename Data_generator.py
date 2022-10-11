@@ -60,7 +60,7 @@ def rate_random():
     return x[id1]
 
 
-#
+# 生成某门所有经常缺课者本学期出勤情况
 def create_BadStu_check(badStuIds, item):
     for j in range(0, 20):
         temp = list()
